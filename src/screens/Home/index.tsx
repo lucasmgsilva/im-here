@@ -1,4 +1,4 @@
-import { Alert, FlatList, ScrollView, Text, TextInput, TouchableOpacity, View } from 'react-native';
+import { Alert, FlatList, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import { styles } from './styles';
 import { Participant } from '../../components/Participant';
 import { useState } from 'react';
@@ -29,8 +29,6 @@ export function Home() {
         style: 'cancel',
       },
     ])
-
-    console.log(`Você clicou no botão de remover no participante ${name}`);
   }
 
   return (
